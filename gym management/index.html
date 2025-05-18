@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Management App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gym Management App</h1>
+        <div id="registration">
+            <h2>Register</h2>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button id="register-btn">Register</button>
+        </div>
+        <div id="login">
+            <h2>Login</h2>
+            <input type="text" id="login-username" placeholder="Username">
+            <input type="password" id="login-password" placeholder="Password">
+            <button id="login-btn">Login</button>
+        </div>
+        <div id="courses" style="display:none;">
+            <h2>Available Courses</h2>
+            <ul id="course-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
